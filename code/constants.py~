@@ -2,7 +2,7 @@
 import pygame
 from .vector import Vec2d
 
-fps = 60
+fps = 6
 gridWidth = 28
 gridHeight = 36
 cellSize = 14

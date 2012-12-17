@@ -18,7 +18,7 @@ class GameScreen(object):
         self.prepareLevel(level)
         #self.pacman = obs.Pacman(c.pacmanStart[0], c.pacmanStart[1])
         ghost = obs.Blinky(c.pacmanStart[0], c.pacmanStart[1])
-        #self.sprites.append(self.pacman)
+        self.sprites.append(self.pacman)
         self.sprites.append(ghost)
         self.score = 0
     def update(self, time, events):

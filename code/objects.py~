@@ -3,8 +3,7 @@ import pygame
 from . import constants as c
 from .vector import Vec2d as vector
 import random
-class GameObject(object):
-    
+class Maze
 class Pacman(object):
     def __init__(self, x, y):
         self.screenPos = vec(x, y)

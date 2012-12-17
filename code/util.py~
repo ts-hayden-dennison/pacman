@@ -1,8 +1,8 @@
 #! usr/bin/env python
 import os
 import pygame
-'''class ImageLoader(object):
-    def __init__(self, directory='.', imageType='.png', chunkSize=(16, 16)):
+class ImageLoader(object):
+    '''def __init__(self, directory='.', imageType='.png', chunkSize=(16, 16)):
         self.directory = directory
         self.imageType = imageType
         self.images = []
